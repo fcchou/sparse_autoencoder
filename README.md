@@ -1,7 +1,8 @@
-This is an exercise on implementing a sparse autoencoder. The excerise
-comes from Prof. Andrew Ng from the following website:
+Sparse Autoendcoder Excercise
+=============================
 
-http://ufldl.stanford.edu/wiki/index.php/Exercise:Sparse_Autoencoder
+This is an exercise on implementing a sparse autoencoder. The excerise
+comes from Prof. Andrew Ng's [UFLDL tutorial](http://ufldl.stanford.edu/wiki/index.php/Exercise:Sparse_Autoencoder)
 
 The description and tutorial of the excerise can be also found in the PDF
 files in this folder.
@@ -11,13 +12,10 @@ The basic algorithm is the same.
 
 The code requires numpy and scipy. matplotlib is needed for visualization.
 
-Example:
-
-====Gradient checking====
-python gradient_test.py
-
-====Training and visualize hidden units====
-python visualize.py
+Example
+-------
+- Gradient checking: gradient_test.py
+- Training and visualize hidden units: visualize.py
 
 Example output figure are given (gradient_check.png and hidden_units.png).
 
