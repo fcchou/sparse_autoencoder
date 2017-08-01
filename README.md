@@ -14,13 +14,16 @@ The code requires numpy and scipy. matplotlib is needed for visualization.
 
 Example
 -------
-- Gradient checking: gradient_test.py
-- Training and visualize hidden units: visualize.py
+- Gradient checking: [gradient_test.py](../master/gradient_test.py)
 
-Example output figure are given (gradient_check.png and hidden_units.png).
+![alt text](../master/gradient_check.png)
+
+- Training and visualize hidden units: [visualize.py](../master/visualize.py)
+
+![alt text](../master/hidden_units.png)
 
 You may also play with the parameters in the code to see the difference on
 the results.
 
-The main codes are in sparse_autoencoder.py. Here the SparseAutoencoder class
-is designed to be quite general, so you may use it for other types of data.
+The main codes are in [sparse_autoencoder.py](../master/sparse_autoencoder.py).
+Here the SparseAutoencoder class is designed to be quite general, so you may use it for other types of data.
